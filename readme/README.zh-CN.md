@@ -53,7 +53,7 @@ bogoSort(array, (a, b) => b - a); // array -> [5,4,3,2,1]
 
 ## 📖 API
 
-### bogoSort
+### bogoSort 猴子排序
 
 > “让一只猴子在打字机上随机地按键，当按键时间达到无穷时，几乎必然能够打出任何给定的文字，比如莎士比亚的全套著作。”
 
@@ -67,7 +67,7 @@ function bogoSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 - `bogoSort` 会修改原数组。
 
-### quantumSort
+### quantumSort 量子排序
 
 > “当观测一个处于共存状态的量子时会引起共存状态的崩溃，从而使量子只显现粒子的性质。该理论认为观测时会分离出无数个平行宇宙，每一个宇宙都有一个确定的状态。”
 
@@ -82,7 +82,7 @@ function quantumSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 - `quantumSort` 不确定会不会修改原数组。
 - 不幸的是，`quantumSort` 目前并未实现，你只能得到一个 `Error` 。
 
-### sleepSort
+### sleepSort 睡眠排序
 
 > “每个数字都在沉睡，当它们在各自的时间醒来时，世界就会知道它们的顺序。”
 
@@ -96,7 +96,7 @@ function sleepSort(array: number[]): Promise<number[]>;
 - `sleepSort` 不会修改原数组。
 - `sleepSort` 仅支持 `number` 类型的数组，并且返回值是一个 `Promise` 。
 
-### miracleSort
+### miracleSort 奇迹排序
 
 > “在空间环境下存在着大量高能带电粒子，计算机中的CMOS电子元器件受到地球磁场、宇宙射线等照射，引起电位状态的跳变，0变成1，或者1变成0。”
 
@@ -108,7 +108,7 @@ function miracleSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 - `miracleSort` 会修改原数组。
 
-### divineSort
+### divineSort 神圣排序
 
 > “存在即合理，数组的顺序不容置疑。”
 
@@ -121,7 +121,7 @@ function divineSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 - `divineSort` 不会修改原数组。
 - `divineSort` 不支持自定义 `compareFunc`，如果传入会抛出一个 `Error` ，因为神圣的意志不受凡人干扰。
 
-### quickSort
+### quickSort 快速排序
 
 ```typescript
 function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
