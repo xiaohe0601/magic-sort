@@ -1,0 +1,41 @@
+{
+  "name": "magic-sort",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "🤓 A fast and magical sort library, powered by luck",
+  "author": "xiaohe0601 <xiaohe0601@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/xiaohe0601/magic-sort#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohe0601/magic-sort.git"
+  },
+  "bugs": "https://github.com/xiaohe0601/magic-sort/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  }
+}

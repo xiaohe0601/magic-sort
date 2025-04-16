@@ -1,0 +1,15 @@
+{
+  "extends": "@xiaohe01/tsconfig/tsconfig.basic.json",
+  "compilerOptions": {
+    "composite": true,
+    "lib": [
+      "ES2020"
+    ],
+    "types": [
+      "vite/client"
+    ]
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}

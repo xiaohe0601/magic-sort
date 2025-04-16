@@ -1,0 +1,44 @@
+{
+  "name": "@magic-sort/monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.7.1",
+  "description": "🤓 A fast and magical sort library, powered by luck",
+  "scripts": {
+    "prepare": "simple-git-hooks",
+    "play": "nr -C playground dev",
+    "build": "nr -r --filter=./packages/* build",
+    "release": "bumpp -r",
+    "lint": "eslint --cache",
+    "lint:fix": "nr lint --fix",
+    "lint:type": "tsc --noEmit",
+    "test": "vitest",
+    "test:bench": "vitest bench",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@antfu/ni": "catalog:",
+    "@antfu/utils": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
+    "@vitest/ui": "catalog:",
+    "@xiaohe01/eslint-config": "catalog:",
+    "@xiaohe01/tsconfig": "catalog:",
+    "bumpp": "catalog:",
+    "eslint": "catalog:",
+    "esno": "catalog:",
+    "lint-staged": "catalog:",
+    "simple-git-hooks": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
