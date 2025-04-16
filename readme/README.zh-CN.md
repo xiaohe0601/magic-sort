@@ -143,7 +143,7 @@ function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 ## 🏆 开源协议
 
-- MIT [LICENSE](./LICENSE)
+- MIT [LICENSE](../LICENSE)
 
 [github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&colorA=080f12&colorB=1fa669&logo=GitHub
 [github-stars-href]: https://github.com/xiaohe0601/magic-sort
