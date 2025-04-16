@@ -1,7 +1,7 @@
 {
   "name": "magic-sort",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "🤓 A fast and magical sort library, powered by luck",
   "author": "xiaohe0601 <xiaohe0601@outlook.com>",
   "license": "MIT",
