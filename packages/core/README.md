@@ -17,7 +17,7 @@ xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0
 English | [简体中文](./readme/README.zh-CN.md)
 
 > [!WARNING]
-> 🚨 Warning: This is an entertainment project, do **not** use it in production!
+> 🚨 This is an entertainment project, do **not** use it in production!
 > The author is **not responsible** for any losses caused!
 
 ## 🎉 Features
@@ -102,7 +102,7 @@ allowing smaller numbers to "wake up" earlier and be added to the result array f
 As all the numbers awaken one by one, a sorted array in ascending order emerges,
 as if they chose the correct order on their own.
 
-- `sleepSort` **does not modify the original array**.
+- `sleepSort` **doesn't modify the original array**.
 - `sleepSort` **only supports arrays of `number` type**, and returns a `Promise`.
 
 ### miracleSort
@@ -130,8 +130,8 @@ function divineSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 Its very existence proves its correctness. The array has already been sorted in the best possible way,
 transcending our mortal understanding of what 'sorting' means. The array has achieved salvation.
 
-- `divineSort` **does not modify the original array**.
-- `divineSort` **does not support a custom `compareFunc`** — if provided, it will throw an `Error`,
+- `divineSort` **doesn't modify the original array**.
+- `divineSort` **doesn't support a custom `compareFunc`** — if provided, it will throw an `Error`,
   because the divine will is not subject to mortal interference.
 
 ### quickSort

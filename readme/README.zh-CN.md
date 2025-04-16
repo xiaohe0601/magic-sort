@@ -17,7 +17,7 @@ xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0
 [English](../README.md) | 简体中文
 
 > [!WARNING]
-> 🚨 注意：这是一个娱乐项目，请勿用于生产！由此造成的损失，作者概不负责！
+> 🚨 这是一个娱乐项目，请勿用于生产！由此造成的损失，作者概不负责！
 
 ## 🎉 特性
 
