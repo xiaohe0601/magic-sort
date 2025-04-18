@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://oss.xiaohe.ink/images/magic-sort.png" width="160" alt="logo"/>
   <h1>Magic Sort</h1>
   <span>🤓 A fast and magical sort library, powered by luck</span>
 </div>

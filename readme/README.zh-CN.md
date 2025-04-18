@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://oss.xiaohe.ink/images/magic-sort.png" width="160" alt="logo"/>
   <h1>Magic Sort</h1>
   <span>🤓 一个由运气驱动如魔法般快速的排序插件</span>
 </div>
