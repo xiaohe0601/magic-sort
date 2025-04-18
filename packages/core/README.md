@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>magic-sort</h1>
+  <h1>Magic Sort</h1>
   <span>🤓 A fast and magical sort library, powered by luck</span>
 </div>
 

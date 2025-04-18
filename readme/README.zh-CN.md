@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>magic-sort</h1>
+  <h1>Magic Sort</h1>
   <span>🤓 一个由运气驱动如魔法般快速的排序插件</span>
 </div>
 
