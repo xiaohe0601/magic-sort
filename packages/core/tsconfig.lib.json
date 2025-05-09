@@ -1,5 +1,5 @@
 {
-  "extends": "@xiaohe01/tsconfig/tsconfig.lib.json",
+  "extends": "@xiaohe01/tsconfig/tsconfig.lib-dom.json",
   "include": [
     "src/**/*.ts"
   ]
