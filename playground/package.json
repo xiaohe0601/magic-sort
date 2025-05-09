@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ress": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {
