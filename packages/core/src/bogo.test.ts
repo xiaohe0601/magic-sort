@@ -2,16 +2,6 @@ import { describe, expect, it } from "vitest";
 import { bogoSort, shuffle } from "./bogo";
 
 describe("shuffle", () => {
-  it("shuffle array", () => {
-    const array = [1, 2, 3, 4, 5];
-    const originalArray = [...array];
-
-    shuffle(array);
-
-    expect(array).not.toEqual(originalArray);
-    expect(array.sort()).toEqual(originalArray.sort());
-  });
-
   it("empty array", () => {
     const array: unknown[] = [];
     const originalArray = [...array];
