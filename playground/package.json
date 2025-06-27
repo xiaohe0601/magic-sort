@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ress": "catalog:",
-    "vue": "catalog:"
+    "ress": "catalog:prod",
+    "vue": "catalog:frontend"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "catalog:",
-    "vite": "catalog:",
-    "vue-tsc": "catalog:"
+    "@vitejs/plugin-vue": "catalog:build",
+    "vite": "catalog:build",
+    "vue-tsc": "catalog:dev"
   }
 }
