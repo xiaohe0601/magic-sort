@@ -11,6 +11,7 @@
   },
   "include": [
     "eslint.config.js",
+    "pncat.config.ts",
     "vitest.config.ts"
   ]
 }
