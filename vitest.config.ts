@@ -1,16 +1,16 @@
-import { coverageConfigDefaults, defineConfig } from "vitest/config";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
     coverage: {
+      provider: "v8",
       include: [
-        "packages/*/**"
+        "packages/*/src/**/*.ts"
       ],
       exclude: [
-        ...coverageConfigDefaults.exclude,
-        "packages/*/src/index.ts",
-        "packages/*/src/types.ts",
-        "packages/*/dist/**"
+        "**/*.bench.ts",
+        "**/index.ts",
+        "**/types.ts"
       ]
     }
   }
