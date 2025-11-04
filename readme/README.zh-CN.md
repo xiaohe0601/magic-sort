@@ -13,12 +13,10 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
-
 [English](../README.md) | 简体中文
 
 > [!WARNING]
-> 🚨 这是一个娱乐项目，请勿用于生产！由此造成的损失，作者概不负责！
+> 🚨 这是一个娱乐项目，**请勿**用于生产！由此造成的损失，作者**概不负责**！
 
 ## 🎉 特性
 
@@ -144,17 +142,17 @@ function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 ## 🏆 开源协议
 
-- MIT [LICENSE](../LICENSE)
+MIT [LICENSE](./LICENSE)
 
-[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&colorA=080f12&colorB=1fa669&logo=GitHub
+[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=github
 [github-stars-href]: https://github.com/xiaohe0601/magic-sort
-[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=npm
 [npm-version-href]: https://npmjs.com/package/magic-sort
-[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&color=1fa669&labelColor=18181b
 [npm-downloads-href]: https://npmjs.com/package/magic-sort
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&color=1fa669&labelColor=18181b&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=magic-sort
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-1fa669?style=flat&labelColor=18181b
 [jsdocs-href]: https://www.jsdocs.io/package/magic-sort
-[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&color=1fa669&labelColor=18181b
 [license-href]: https://github.com/xiaohe0601/magic-sort/blob/main/LICENSE

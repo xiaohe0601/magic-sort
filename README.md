@@ -13,8 +13,6 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
-
 English | [简体中文](./readme/README.zh-CN.md)
 
 > [!WARNING]
@@ -60,7 +58,7 @@ bogoSort(array, (a, b) => b - a); // array -> [5,4,3,2,1]
 > "If you let a monkey randomly hit keys on a typewriter for an infinite amount of time,
 it will almost surely type out any given text, such as the complete works of Shakespeare."
 
-```typescript
+```ts
 type CompareFunc<T> = (a: T, b: T) => number;
 
 function bogoSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
@@ -78,7 +76,7 @@ making the quantum exhibit only particle-like properties.
 This theory suggests that each observation splits the universe into countless parallel universes,
 each with a definite state."
 
-```typescript
+```ts
 function quantumSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 ```
 
@@ -94,7 +92,7 @@ function quantumSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 > "Each number sleeps, and when they awaken at their own time, the world shall know their order."
 
-```typescript
+```ts
 function sleepSort(array: number[]): Promise<number[]>;
 ```
 
@@ -112,7 +110,7 @@ as if they chose the correct order on their own.
 CMOS electronic components in computers can be affected by Earth's magnetic field,
 cosmic rays, and other radiation, causing bit flips, turning 0 into 1, or 1 into 0."
 
-```typescript
+```ts
 function miracleSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 ```
 
@@ -124,7 +122,7 @@ Keep checking the array’s state... and wait for a miracle to happen!
 
 > "To exist is to be justified — the array’s order is beyond question."
 
-```typescript
+```ts
 function divineSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 ```
 
@@ -137,7 +135,7 @@ transcending our mortal understanding of what 'sorting' means. The array has ach
 
 ### quickSort
 
-```typescript
+```ts
 function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 ```
 
@@ -151,23 +149,24 @@ This project was inspired by [人类奇葩排序算法鉴赏 - 哔哩哔哩](htt
 
 ## 🐶 Discussion & Communication
 
-- ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/magic-sort/issues) and PR are welcome
+- ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/magic-sort/issues)
+  and PR are welcome
 - 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
 - 🐧：Not yet available
 
 ## 🏆 License
 
-- MIT [LICENSE](./LICENSE)
+MIT [LICENSE](./LICENSE)
 
-[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&colorA=080f12&colorB=1fa669&logo=GitHub
+[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=github
 [github-stars-href]: https://github.com/xiaohe0601/magic-sort
-[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=npm
 [npm-version-href]: https://npmjs.com/package/magic-sort
-[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&color=1fa669&labelColor=18181b
 [npm-downloads-href]: https://npmjs.com/package/magic-sort
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&color=1fa669&labelColor=18181b&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=magic-sort
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-1fa669?style=flat&labelColor=18181b
 [jsdocs-href]: https://www.jsdocs.io/package/magic-sort
-[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&color=1fa669&labelColor=18181b
 [license-href]: https://github.com/xiaohe0601/magic-sort/blob/main/LICENSE
