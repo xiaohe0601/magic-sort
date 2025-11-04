@@ -144,15 +144,15 @@ function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 MIT [LICENSE](./LICENSE)
 
-[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=github
+[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/magic-sort?style=flat&color=fb7964&labelColor=18181b&logo=github
 [github-stars-href]: https://github.com/xiaohe0601/magic-sort
-[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&color=1fa669&labelColor=18181b&logo=npm
+[npm-version-src]: https://img.shields.io/npm/v/magic-sort?style=flat&color=fb7964&labelColor=18181b&logo=npm
 [npm-version-href]: https://npmjs.com/package/magic-sort
-[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&color=1fa669&labelColor=18181b
+[npm-downloads-src]: https://img.shields.io/npm/dm/magic-sort?style=flat&color=fb7964&labelColor=18181b
 [npm-downloads-href]: https://npmjs.com/package/magic-sort
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&color=1fa669&labelColor=18181b&label=minzip
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/magic-sort?style=flat&color=fb7964&labelColor=18181b&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=magic-sort
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-1fa669?style=flat&labelColor=18181b
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-fb7964?style=flat&labelColor=18181b
 [jsdocs-href]: https://www.jsdocs.io/package/magic-sort
-[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&color=1fa669&labelColor=18181b
+[license-src]: https://img.shields.io/github/license/xiaohe0601/magic-sort.svg?style=flat&color=fb7964&labelColor=18181b
 [license-href]: https://github.com/xiaohe0601/magic-sort/blob/main/LICENSE
