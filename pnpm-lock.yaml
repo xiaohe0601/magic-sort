@@ -25,6 +25,10 @@ catalogs:
     pncat:
       specifier: ^0.7.4
       version: 0.7.4
+  dev:
+    '@vue/runtime-core':
+      specifier: ^3.5.22
+      version: 3.5.22
   frontend:
     vue:
       specifier: ^3.5.22
@@ -140,6 +144,9 @@ importers:
       '@vitejs/plugin-vue':
         specifier: catalog:build
         version: 6.0.1(vite@7.1.12(@types/node@22.19.0)(jiti@2.6.1)(tsx@4.20.6)(yaml@2.8.1))(vue@3.5.22(typescript@5.9.3))
+      '@vue/runtime-core':
+        specifier: catalog:dev
+        version: 3.5.22
       vite:
         specifier: catalog:build
         version: 7.1.12(@types/node@22.19.0)(jiti@2.6.1)(tsx@4.20.6)(yaml@2.8.1)
