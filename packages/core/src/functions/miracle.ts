@@ -1,5 +1,5 @@
+import type { CompareFunc } from "../types";
 import { defaultCompareFunc, isSorted } from "./shard";
-import type { CompareFunc } from "./types";
 
 /**
  * > "In space environments, there are large amounts of high-energy charged particles.

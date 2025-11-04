@@ -1,4 +1,4 @@
-import type { CompareFunc } from "./types";
+import type { CompareFunc } from "../types";
 
 export function defaultCompareFunc(a: unknown, b: unknown): number {
   if (a === b) {

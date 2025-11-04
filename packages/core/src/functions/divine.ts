@@ -1,4 +1,4 @@
-import type { CompareFunc } from "./types";
+import type { CompareFunc } from "../types";
 
 /**
  * > "To exist is to be justified — the array’s order is beyond question."

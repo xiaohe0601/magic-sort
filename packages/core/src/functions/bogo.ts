@@ -1,5 +1,5 @@
+import type { CompareFunc } from "../types";
 import { defaultCompareFunc, isSorted } from "./shard";
-import type { CompareFunc } from "./types";
 
 export function shuffle(array: unknown[]): void {
   for (let i = array.length - 1; i > 0; i -= 1) {

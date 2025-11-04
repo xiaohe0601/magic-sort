@@ -1,4 +1,4 @@
-import type { CompareFunc } from "./types";
+import type { CompareFunc } from "../types";
 
 /**
  * > "Observing a quantum in a superposition causes the collapse of that state,

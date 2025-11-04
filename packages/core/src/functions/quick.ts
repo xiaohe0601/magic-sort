@@ -1,5 +1,5 @@
+import type { CompareFunc } from "../types";
 import { defaultCompareFunc } from "./shard";
-import type { CompareFunc } from "./types";
 
 function partition<T>(
   array: T[],
