@@ -10,7 +10,7 @@
     "allowJs": true
   },
   "include": [
-    "vitest.config.ts",
-    "eslint.config.js"
+    "eslint.config.js",
+    "vitest.config.ts"
   ]
 }

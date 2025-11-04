@@ -3,8 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.13.1",
-  "description": "🤓 A fast and magical sort library, powered by luck",
+  "packageManager": "pnpm@10.20.0",
   "scripts": {
     "prepare": "simple-git-hooks",
     "play": "nr -C playground dev",
@@ -19,12 +18,12 @@
     "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@antfu/ni": "catalog:dev",
-    "@antfu/utils": "catalog:dev",
+    "@antfu/ni": "catalog:cli",
+    "@types/node": "catalog:types",
     "@vitest/coverage-v8": "catalog:test",
     "@vitest/ui": "catalog:test",
-    "@xiaohe01/eslint-config": "catalog:lint",
-    "@xiaohe01/tsconfig": "catalog:dev",
+    "@xiaohe01/eslint-config": "catalog:xiaohe",
+    "@xiaohe01/tsconfig": "catalog:xiaohe",
     "bumpp": "catalog:cli",
     "eslint": "catalog:lint",
     "esno": "catalog:script",
@@ -32,8 +31,7 @@
     "pncat": "catalog:cli",
     "simple-git-hooks": "catalog:lint",
     "tsdown": "catalog:build",
-    "typescript": "catalog:dev",
-    "vite": "catalog:build",
+    "typescript": "catalog:tsc",
     "vitest": "catalog:test"
   },
   "simple-git-hooks": {

@@ -9,7 +9,7 @@
     ]
   },
   "include": [
-    "packages/**/*.test.ts",
-    "packages/**/*.bench.ts"
+    "packages/**/*.bench.ts",
+    "packages/**/*.test.ts"
   ]
 }
