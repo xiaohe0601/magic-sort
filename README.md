@@ -147,13 +147,6 @@ Yes, this is a serious and legitimate implementation of the quicksort algorithm,
 
 This project was inspired by [人类奇葩排序算法鉴赏 - 哔哩哔哩](https://www.bilibili.com/video/BV1nJBTYoEQm).
 
-## 🐶 Discussion & Communication
-
-- ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/magic-sort/issues)
-  and PR are welcome
-- 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
-- 🐧：Not yet available
-
 ## 🏆 License
 
 MIT [LICENSE](./LICENSE)

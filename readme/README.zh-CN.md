@@ -134,12 +134,6 @@ function quickSort<T>(array: T[], compareFunc?: CompareFunc<T>): T[];
 
 项目灵感来源于 [人类奇葩排序算法鉴赏 - 哔哩哔哩](https://www.bilibili.com/video/BV1nJBTYoEQm) 。
 
-## 🐶 讨论交流
-
-- ❓：若有疑问或 BUG 反馈，可提交 [issues](https://github.com/xiaohe0601/magic-sort/issues)，也欢迎 PR
-- 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
-- 🐧：暂未开通
-
 ## 🏆 开源协议
 
 MIT [LICENSE](./LICENSE)
