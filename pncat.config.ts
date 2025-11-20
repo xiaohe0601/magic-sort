@@ -37,6 +37,13 @@ export default defineConfig({
         "@antfu/ni"
       ],
       priority: 20
+    },
+    {
+      name: "frontend",
+      match: [
+        "ress"
+      ],
+      priority: 60
     }
   ])
 });
