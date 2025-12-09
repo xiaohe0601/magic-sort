@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.0",
   "private": true,
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.25.0",
   "scripts": {
     "prepare": "simple-git-hooks",
     "play": "nr -C playground dev",
@@ -11,7 +11,7 @@
     "release": "bumpp -r",
     "lint": "eslint --cache",
     "lint:fix": "nr lint --fix",
-    "lint:type": "tsc --noEmit",
+    "lint:type": "vue-tsc -b --noEmit",
     "test": "vitest",
     "test:bench": "vitest bench",
     "test:ui": "vitest --ui",
@@ -32,7 +32,8 @@
     "simple-git-hooks": "catalog:lint",
     "tsdown": "catalog:build",
     "typescript": "catalog:tsc",
-    "vitest": "catalog:test"
+    "vitest": "catalog:test",
+    "vue-tsc": "catalog:tsc"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
