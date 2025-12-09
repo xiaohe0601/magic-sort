@@ -7,7 +7,7 @@
   "scripts": {
     "prepare": "simple-git-hooks",
     "play": "nr -C playground dev",
-    "build": "nr -r --filter=./packages/* build",
+    "build": "nr -r --filter='./packages/*' build",
     "release": "bumpp -r",
     "lint": "eslint --cache",
     "lint:fix": "nr lint --fix",
